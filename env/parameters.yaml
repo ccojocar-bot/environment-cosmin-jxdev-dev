@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:cosmin-jxdev/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: jx-bot@gmx.ch
+  token: vault:cosmin-jxdev/pipelineUser:token
+  username: ccojocar-bot
+prow:
+  hmacToken: vault:cosmin-jxdev/prow:hmacToken
